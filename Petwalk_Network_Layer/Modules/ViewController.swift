@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         print("Token \(KeychainSwift().get(KeyChainKeysConstant.token.rawValue))")
-        getRequest()
+        //        getRequest()
         //        postRequest()
-        //        prepareAuth()
+        prepareAuth()
     }
     
     func prepareAuth() {
