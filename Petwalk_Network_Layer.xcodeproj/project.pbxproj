@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84449A35270D81C400055B4C /* Data+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449A34270D81C400055B4C /* Data+Decodable.swift */; };
+		84449A37270D9AD600055B4C /* UploadDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449A36270D9AD600055B4C /* UploadDataModel.swift */; };
+		84449A39270DD75900055B4C /* BoundaryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449A38270DD75900055B4C /* BoundaryGenerator.swift */; };
+		84449A3B270DE34600055B4C /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449A3A270DE34600055B4C /* Data+String.swift */; };
+		84449A3D270DE99100055B4C /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449A3C270DE99100055B4C /* MimeType.swift */; };
+		8486A76527073CB300E9B1B0 /* AuthorizationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A76427073CB300E9B1B0 /* AuthorizationType.swift */; };
+		8486A76C270752A000E9B1B0 /* KeyChainKeysConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A76B270752A000E9B1B0 /* KeyChainKeysConstants.swift */; };
+		8486A76E2708957900E9B1B0 /* Authorisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A76D2708957900E9B1B0 /* Authorisation.swift */; };
+		8486A7702708958D00E9B1B0 /* AuthTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A76F2708958D00E9B1B0 /* AuthTokenService.swift */; };
+		8486A7732708CB4F00E9B1B0 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8486A7722708CB4F00E9B1B0 /* KeychainSwift */; };
+		8486A7752708DF5800E9B1B0 /* AuthorisationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A7742708DF5800E9B1B0 /* AuthorisationProtocol.swift */; };
+		8486A7772708E9AC00E9B1B0 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A7762708E9AC00E9B1B0 /* TokenModel.swift */; };
+		8486A779270AF0CE00E9B1B0 /* RefreshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A778270AF0CE00E9B1B0 /* RefreshManager.swift */; };
+		8486A787270B15EC00E9B1B0 /* TestEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A786270B15EC00E9B1B0 /* TestEndpoint.swift */; };
+		8486A78C270B4AF600E9B1B0 /* GetTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A78B270B4AF600E9B1B0 /* GetTaskManager.swift */; };
+		8486A78E270B4B0A00E9B1B0 /* UploadTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A78D270B4B0A00E9B1B0 /* UploadTaskManager.swift */; };
+		8486A790270B4B1900E9B1B0 /* DownloadTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A78F270B4B1900E9B1B0 /* DownloadTaskManager.swift */; };
+		8486A792270B4B3A00E9B1B0 /* TaskManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A791270B4B3A00E9B1B0 /* TaskManagerProtocol.swift */; };
+		8486A794270C3A8900E9B1B0 /* UserAssetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486A793270C3A8900E9B1B0 /* UserAssetsModel.swift */; };
 		84A6968B2705D3C700362711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6968A2705D3C700362711 /* AppDelegate.swift */; };
 		84A6968D2705D3C700362711 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6968C2705D3C700362711 /* SceneDelegate.swift */; };
 		84A6968F2705D3C700362711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6968E2705D3C700362711 /* ViewController.swift */; };
 		84A696922705D3C700362711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A696902705D3C700362711 /* Main.storyboard */; };
 		84A696942705D3CD00362711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A696932705D3CD00362711 /* Assets.xcassets */; };
 		84A696972705D3CD00362711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A696952705D3CD00362711 /* LaunchScreen.storyboard */; };
+		84A696A42705D7CB00362711 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696A32705D7CB00362711 /* EndpointType.swift */; };
+		84A696AB2705DB8800362711 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696AA2705DB8800362711 /* RequestMethod.swift */; };
+		84A696AD2705FC0F00362711 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696AC2705FC0E00362711 /* RequestBuilder.swift */; };
+		84A696AF2705FC5F00362711 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696AE2705FC5F00362711 /* URLBuilder.swift */; };
+		84A696B82706254400362711 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696B72706254400362711 /* NetworkError.swift */; };
+		84A696BC2706EC7600362711 /* RequestTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696BB2706EC7600362711 /* RequestTask.swift */; };
+		84A696BF2706F91400362711 /* Encodable+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696BE2706F91400362711 /* Encodable+Serialization.swift */; };
+		84A696C1270701ED00362711 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A696C0270701ED00362711 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84449A34270D81C400055B4C /* Data+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Decodable.swift"; sourceTree = "<group>"; };
+		84449A36270D9AD600055B4C /* UploadDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDataModel.swift; sourceTree = "<group>"; };
+		84449A38270DD75900055B4C /* BoundaryGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundaryGenerator.swift; sourceTree = "<group>"; };
+		84449A3A270DE34600055B4C /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
+		84449A3C270DE99100055B4C /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		8486A76427073CB300E9B1B0 /* AuthorizationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationType.swift; sourceTree = "<group>"; };
+		8486A76B270752A000E9B1B0 /* KeyChainKeysConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainKeysConstants.swift; sourceTree = "<group>"; };
+		8486A76D2708957900E9B1B0 /* Authorisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorisation.swift; sourceTree = "<group>"; };
+		8486A76F2708958D00E9B1B0 /* AuthTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenService.swift; sourceTree = "<group>"; };
+		8486A7742708DF5800E9B1B0 /* AuthorisationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationProtocol.swift; sourceTree = "<group>"; };
+		8486A7762708E9AC00E9B1B0 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		8486A778270AF0CE00E9B1B0 /* RefreshManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshManager.swift; sourceTree = "<group>"; };
+		8486A786270B15EC00E9B1B0 /* TestEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEndpoint.swift; sourceTree = "<group>"; };
+		8486A78B270B4AF600E9B1B0 /* GetTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTaskManager.swift; sourceTree = "<group>"; };
+		8486A78D270B4B0A00E9B1B0 /* UploadTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTaskManager.swift; sourceTree = "<group>"; };
+		8486A78F270B4B1900E9B1B0 /* DownloadTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTaskManager.swift; sourceTree = "<group>"; };
+		8486A791270B4B3A00E9B1B0 /* TaskManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerProtocol.swift; sourceTree = "<group>"; };
+		8486A793270C3A8900E9B1B0 /* UserAssetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAssetsModel.swift; sourceTree = "<group>"; };
 		84A696872705D3C700362711 /* Petwalk_Network_Layer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petwalk_Network_Layer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6968A2705D3C700362711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A6968C2705D3C700362711 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +69,14 @@
 		84A696932705D3CD00362711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A696962705D3CD00362711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A696982705D3CD00362711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A696A32705D7CB00362711 /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		84A696AA2705DB8800362711 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		84A696AC2705FC0E00362711 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		84A696AE2705FC5F00362711 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		84A696B72706254400362711 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		84A696BB2706EC7600362711 /* RequestTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTask.swift; sourceTree = "<group>"; };
+		84A696BE2706F91400362711 /* Encodable+Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Serialization.swift"; sourceTree = "<group>"; };
+		84A696C0270701ED00362711 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +84,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8486A7732708CB4F00E9B1B0 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8486A76627073D7000E9B1B0 /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				8486A76D2708957900E9B1B0 /* Authorisation.swift */,
+				8486A76F2708958D00E9B1B0 /* AuthTokenService.swift */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		8486A7692707526900E9B1B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84A696A22705D62D00362711 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8486A78A270B4AD500E9B1B0 /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				8486A78B270B4AF600E9B1B0 /* GetTaskManager.swift */,
+				8486A78D270B4B0A00E9B1B0 /* UploadTaskManager.swift */,
+				8486A78F270B4B1900E9B1B0 /* DownloadTaskManager.swift */,
+			);
+			path = TaskManager;
+			sourceTree = "<group>";
+		};
 		84A6967E2705D3C700362711 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +137,126 @@
 		84A696892705D3C700362711 /* Petwalk_Network_Layer */ = {
 			isa = PBXGroup;
 			children = (
-				84A6968A2705D3C700362711 /* AppDelegate.swift */,
-				84A6968C2705D3C700362711 /* SceneDelegate.swift */,
-				84A6968E2705D3C700362711 /* ViewController.swift */,
-				84A696902705D3C700362711 /* Main.storyboard */,
-				84A696932705D3CD00362711 /* Assets.xcassets */,
-				84A696952705D3CD00362711 /* LaunchScreen.storyboard */,
-				84A696982705D3CD00362711 /* Info.plist */,
+				8486A7692707526900E9B1B0 /* Services */,
+				84A696A12705D61100362711 /* Modules */,
+				84A696A02705D42C00362711 /* Settings */,
+				84A6969F2705D41B00362711 /* Resources */,
+				84A6969E2705D3E800362711 /* Application */,
 			);
 			path = Petwalk_Network_Layer;
+			sourceTree = "<group>";
+		};
+		84A6969E2705D3E800362711 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				84A6968A2705D3C700362711 /* AppDelegate.swift */,
+				84A6968C2705D3C700362711 /* SceneDelegate.swift */,
+				84A696952705D3CD00362711 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		84A6969F2705D41B00362711 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84A696932705D3CD00362711 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84A696A02705D42C00362711 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				84A696982705D3CD00362711 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		84A696A12705D61100362711 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8486A7762708E9AC00E9B1B0 /* TokenModel.swift */,
+				8486A786270B15EC00E9B1B0 /* TestEndpoint.swift */,
+				84A6968E2705D3C700362711 /* ViewController.swift */,
+				84A696902705D3C700362711 /* Main.storyboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84A696A22705D62D00362711 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				8486A76627073D7000E9B1B0 /* AuthService */,
+				84A696B32706107400362711 /* Extensions */,
+				84A696BD2706F40A00362711 /* Encoding */,
+				84A696B62706252E00362711 /* Errors */,
+				84A696A82705D84F00362711 /* RequestManager */,
+				84A696A92705DB6B00362711 /* Enums */,
+				84A696A52705D81400362711 /* Protocols */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		84A696A52705D81400362711 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8486A7742708DF5800E9B1B0 /* AuthorisationProtocol.swift */,
+				84A696A32705D7CB00362711 /* EndpointType.swift */,
+				8486A791270B4B3A00E9B1B0 /* TaskManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84A696A82705D84F00362711 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				84A696C0270701ED00362711 /* NetworkManager.swift */,
+				8486A78A270B4AD500E9B1B0 /* TaskManager */,
+				8486A778270AF0CE00E9B1B0 /* RefreshManager.swift */,
+				84A696AC2705FC0E00362711 /* RequestBuilder.swift */,
+				84A696AE2705FC5F00362711 /* URLBuilder.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		84A696A92705DB6B00362711 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				8486A76B270752A000E9B1B0 /* KeyChainKeysConstants.swift */,
+				84A696AA2705DB8800362711 /* RequestMethod.swift */,
+				84A696BB2706EC7600362711 /* RequestTask.swift */,
+				8486A76427073CB300E9B1B0 /* AuthorizationType.swift */,
+				84449A38270DD75900055B4C /* BoundaryGenerator.swift */,
+				84449A3C270DE99100055B4C /* MimeType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		84A696B32706107400362711 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84A696BE2706F91400362711 /* Encodable+Serialization.swift */,
+				84449A34270D81C400055B4C /* Data+Decodable.swift */,
+				84449A3A270DE34600055B4C /* Data+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84A696B62706252E00362711 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				84A696B72706254400362711 /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		84A696BD2706F40A00362711 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				8486A793270C3A8900E9B1B0 /* UserAssetsModel.swift */,
+				84449A36270D9AD600055B4C /* UploadDataModel.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +275,9 @@
 			dependencies = (
 			);
 			name = Petwalk_Network_Layer;
+			packageProductDependencies = (
+				8486A7722708CB4F00E9B1B0 /* KeychainSwift */,
+			);
 			productName = Petwalk_Network_Layer;
 			productReference = 84A696872705D3C700362711 /* Petwalk_Network_Layer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 84A6967E2705D3C700362711;
+			packageReferences = (
+				8486A7712708CB4F00E9B1B0 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 84A696882705D3C700362711 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +336,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84449A37270D9AD600055B4C /* UploadDataModel.swift in Sources */,
+				8486A792270B4B3A00E9B1B0 /* TaskManagerProtocol.swift in Sources */,
+				8486A7772708E9AC00E9B1B0 /* TokenModel.swift in Sources */,
+				8486A779270AF0CE00E9B1B0 /* RefreshManager.swift in Sources */,
+				8486A787270B15EC00E9B1B0 /* TestEndpoint.swift in Sources */,
+				84A696BC2706EC7600362711 /* RequestTask.swift in Sources */,
+				8486A78E270B4B0A00E9B1B0 /* UploadTaskManager.swift in Sources */,
+				84A696C1270701ED00362711 /* NetworkManager.swift in Sources */,
+				8486A794270C3A8900E9B1B0 /* UserAssetsModel.swift in Sources */,
+				8486A7752708DF5800E9B1B0 /* AuthorisationProtocol.swift in Sources */,
+				8486A78C270B4AF600E9B1B0 /* GetTaskManager.swift in Sources */,
+				8486A76527073CB300E9B1B0 /* AuthorizationType.swift in Sources */,
+				84A696AB2705DB8800362711 /* RequestMethod.swift in Sources */,
+				8486A790270B4B1900E9B1B0 /* DownloadTaskManager.swift in Sources */,
+				8486A76C270752A000E9B1B0 /* KeyChainKeysConstants.swift in Sources */,
+				84449A35270D81C400055B4C /* Data+Decodable.swift in Sources */,
+				84449A3D270DE99100055B4C /* MimeType.swift in Sources */,
+				84A696AF2705FC5F00362711 /* URLBuilder.swift in Sources */,
+				84A696A42705D7CB00362711 /* EndpointType.swift in Sources */,
+				84A696BF2706F91400362711 /* Encodable+Serialization.swift in Sources */,
+				84A696AD2705FC0F00362711 /* RequestBuilder.swift in Sources */,
+				8486A7702708958D00E9B1B0 /* AuthTokenService.swift in Sources */,
+				8486A76E2708957900E9B1B0 /* Authorisation.swift in Sources */,
 				84A6968F2705D3C700362711 /* ViewController.swift in Sources */,
+				84449A39270DD75900055B4C /* BoundaryGenerator.swift in Sources */,
 				84A6968B2705D3C700362711 /* AppDelegate.swift in Sources */,
 				84A6968D2705D3C700362711 /* SceneDelegate.swift in Sources */,
+				84449A3B270DE34600055B4C /* Data+String.swift in Sources */,
+				84A696B82706254400362711 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X76T92HD6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Petwalk_Network_Layer/Info.plist;
+				INFOPLIST_FILE = Petwalk_Network_Layer/Settings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X76T92HD6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Petwalk_Network_Layer/Info.plist;
+				INFOPLIST_FILE = Petwalk_Network_Layer/Settings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,6 +584,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8486A7712708CB4F00E9B1B0 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 19.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8486A7722708CB4F00E9B1B0 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8486A7712708CB4F00E9B1B0 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84A6967F2705D3C700362711 /* Project object */;
 }
